@@ -27,9 +27,11 @@ nav a {
   border-radius: 5px;
 }
 nav ul a li {
+   background-color: rgb(218, 255, 230);
   color: white;
 }
 nav a:hover {
+   background-color: rgb(218, 255, 230);
   background-color: #18d6f8;
   margin: 11px;
   border-radius: 8px;
