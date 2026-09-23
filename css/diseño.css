@@ -2,3 +2,33 @@
 
    background-color: rgb(218, 255, 230);
 }
+nav {
+  justify-content: center;
+  grid-area: nav;
+  padding: 10px;
+  display: flex;
+  background-color: white;
+}
+nav ul {
+  display: flex;
+}
+nav a {
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+  text-decoration: none;
+  background-color: #036473;
+  justify-content: center;
+  gap: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+}
+nav ul a li {
+  color: white;
+}
+nav a:hover {
+  background-color: #013139;
+  margin: 11px;
+  border-radius: 8px;
+}
