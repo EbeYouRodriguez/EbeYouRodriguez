@@ -3,6 +3,7 @@
    background-color: rgb(218, 255, 230);
 }
 nav {
+   background-color: rgb(218, 255, 230);
   justify-content: center;
   grid-area: nav;
   padding: 10px;
