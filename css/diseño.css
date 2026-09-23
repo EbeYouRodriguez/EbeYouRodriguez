@@ -1,8 +1,14 @@
 *{
-   
+
    background-color: rgb(218, 255, 230);
 }
-
+nav {
+  justify-content: center;
+  grid-area: nav;
+  padding: 10px;
+  display: flex;
+  background-color: rgb(156, 255, 255);
+}
 
 header h1 {
    color: rgb(0, 46, 46);
