@@ -13,3 +13,22 @@ nav {
 header h1 {
    color: rgb(0, 46, 46);
 }
+nav a {
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+  text-decoration: none;
+  background-color: #003f49;
+  justify-content: center;
+  gap: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+}
+nav ul a li {
+  color: white;
+}
+nav a:hover {
+  background-color: #013139;
+  margin: 11px;
+  border-radius: 8px;
