@@ -1,0 +1,25 @@
+selector {
+    propiedad: valor;
+}*/
+
+* {
+    box-sizing: border-box;
+    color: #1A0701;
+}
+ body {
+    background-color: #F2FDFF;
+ }  
+header{
+    background-color: white;
+}
+ nav{
+    background-color: white;
+ }
+ nav a{
+    text-decoration: none;
+    background-color: #036473;
+    color: white;
+ }
+ footer{
+    background-color: #F2C680;
+ }
