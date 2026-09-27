@@ -12,9 +12,6 @@ nav ul {
   display: flex;
   list-style: none
 }
-nav ul {
-  display: flex;
-}
 nav a {
  
   margin: 10px;
