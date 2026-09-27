@@ -42,4 +42,5 @@ nav a:hover {
 }
 uno-imagen{
   display: flex;
+   align-items: center
 }
