@@ -2,13 +2,14 @@
 
    background-color: #93CDAD
 }
+nav{
+  background-color: #18d6f8;
+}
 nav ul {
-   
   justify-content: center;
-  grid-area: nav;
-  padding: 0px;
+  grid-area: nav; 
+  padding: 10px;
   display: flex;
-  background-color: #7BC887;
 }
 nav ul {
   display: flex;
