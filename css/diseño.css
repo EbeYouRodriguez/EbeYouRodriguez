@@ -7,9 +7,7 @@ body header {
   align-items: center
   
 }
-nav{
-  background-color: #18d6f8;
-}
+
 nav ul {
   justify-content: center;
   grid-area: nav; 
@@ -39,11 +37,11 @@ nav a:hover {
   background-color: #18d6f8;
   margin: 11px;
   border-radius: 8px;
-}
-uno-imagen{
+} 
+uno-imagen {
   display: flex;
-   align-items: center
+  align-items: center
 }
 #p1 {
-  background-color: #6EE613;
+  background-color: #9eff54;
 }
