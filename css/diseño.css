@@ -1,14 +1,14 @@
 *{
 
-   background-color: rgb(218, 255, 230);
+   background-color: #93CDAD
 }
-nav {
+nav ul {
    
   justify-content: center;
   grid-area: nav;
-  padding: 10px;
+  padding: 0px;
   display: flex;
-  background-color: rgb(218, 255, 230);
+  background-color: #7BC887;
 }
 nav ul {
   display: flex;
