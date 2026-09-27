@@ -10,6 +10,7 @@ nav ul {
   grid-area: nav; 
   padding: 10px;
   display: flex;
+  list-style: none
 }
 nav ul {
   display: flex;
