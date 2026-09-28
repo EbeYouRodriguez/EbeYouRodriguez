@@ -45,7 +45,6 @@ section h1 {
 .uno-imagen {
    display: flex;
     align-items: center;
-    border-radius: 15px;
     background: transparent;
     justify-content: center;
     gap: 30px
@@ -56,29 +55,21 @@ section h1 {
   width: 300px;
   text-align: center;
   border-radius: 15px;
-  
-  
 }
 .dos-imagen {
   display: flex;
     align-items: center;
-    border-radius: 15px;
     justify-content: center;
     gap: 30px
 }
 .dos-imagen p {
-  
   width: 350px;
   background-color: #fafd42;
   border-radius: 15px;
-  
-
 }
 .tres-imagen{
   display: flex;
     align-items: center;
-    border-radius: 15px;
-   
     justify-content: center;
     gap: 30px
 }
@@ -87,7 +78,11 @@ section h1 {
   background: #41E51D;
   text-align: center;
   border-radius: 15px;
-  
+}
+.uno-imagen img,
+.dos-imagen img,
+.tres-imagen image{
+   border-radius: 15px
 }
 footer {
   background: #6EE613;
