@@ -45,7 +45,8 @@ section h1 {
 .uno-imagen {
    display: flex;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 0px;
+    background: transparent;
     padding: 15px;
     justify-content: center;
     gap: 30px
