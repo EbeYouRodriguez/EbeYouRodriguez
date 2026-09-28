@@ -5,7 +5,7 @@
 }
 body header {
   display: flex;
-  align-items: center
+  align-items: center;
   
 }
 
@@ -14,7 +14,7 @@ nav ul {
   grid-area: nav; 
   padding: 10px;
   display: flex;
-  list-style: none
+  list-style: none;
 }
 nav a {
  
@@ -40,7 +40,7 @@ nav a:hover {
   border-radius: 8px;
 } 
 section h1 {
-  text-align: center
+  text-align: center;
 }
 .uno-imagen {
    display: flex;
@@ -60,7 +60,7 @@ section h1 {
   display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px
+    gap: 30px;
 }
 .dos-imagen p {
   width: 350px;
@@ -71,7 +71,7 @@ section h1 {
   display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px
+    gap: 30px;
 }
 .tres-imagen p {
   width: 350px;
@@ -82,7 +82,7 @@ section h1 {
 .uno-imagen img,
 .dos-imagen img,
 .tres-imagen video{
-   border-radius: 15px
+   border-radius: 15px;
 }
 footer {
   background: #6EE613;
