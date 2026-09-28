@@ -28,7 +28,7 @@ nav a {
   padding: 10px;
   list-style: none;
   text-decoration: none;
-  background-color: #94ffe8;
+  background-color:  #18d6f8;
   justify-content: center;
   gap: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -38,7 +38,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #18d6f8;
+  background-color: #00948d;
   margin: 10px;
   border-radius: 8px;
 } 
