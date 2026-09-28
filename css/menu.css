@@ -4,6 +4,7 @@ body header {
   align-items: center;
   justify-content: center;
   gap: 30px;
+  text-shadow: olivedrab;
 }
 nav ul {
   justify-content: center;
