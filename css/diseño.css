@@ -53,3 +53,6 @@ nav a:hover {
   align-items: center;
   gap: 30px
 }
+.dos-imagen p {
+  width: 350px;
+}
