@@ -1,0 +1,39 @@
+
+body header {
+  display: flex;
+  align-items: center
+  
+}
+nav ul {
+  justify-content: center;
+  grid-area: nav; 
+  padding: 10px;
+  display: flex;
+  list-style: none
+}
+nav a {
+ 
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+  text-decoration: none;
+  background-color: #94ffe8;
+  justify-content: center;
+  gap: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+}
+nav ul a li {
+   
+  color: white;
+}
+nav a:hover {
+  
+  background-color: #18d6f8;
+  margin: 11px;
+  border-radius: 8px;
+} 
+section h1 {
+  text-align: center
+}
