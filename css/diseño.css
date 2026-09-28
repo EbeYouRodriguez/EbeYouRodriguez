@@ -42,19 +42,23 @@ nav a:hover {
 .uno-imagen {
     display: flex;
     align-items: center;
+    text-align: center;
     gap: 30px;
 }
 #p1 {
   background-color: #9eff54;
   width: 300px;
+  text-align: center;
   
 }
 .dos-imagen {
+  text-align: center;
   display: flex;
   align-items: center;
   gap: 30px
 }
 .dos-imagen p {
+  text-align: center;
   width: 350px;
   background-color: #fafd42;
 }
