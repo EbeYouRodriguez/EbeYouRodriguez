@@ -40,10 +40,10 @@ nav a:hover {
   border-radius: 8px;
 } 
 .uno-imagen {
-    display: flex;
+   display: flex;
     align-items: center;
-    text-align: center;
-    gap: 30px;
+    justify-content: center;
+    gap: 30px
 }
 #p1 {
   background-color: #9eff54;
@@ -52,17 +52,28 @@ nav a:hover {
   
 }
 .dos-imagen {
-  text-align: center;
   display: flex;
-  align-items: center;
-  gap: 30px
+    align-items: center;
+    justify-content: center;
+    gap: 30px
 }
 .dos-imagen p {
-  text-align: center;
+  
   width: 350px;
   background-color: #fafd42;
+
+}
+.tres-imagen{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px
+}
+.tres-imagen p {
+  width: 350px;
+  background: #41E51D;
 }
 footer h1 ul li {
-  background-color: #6EE613;
+  background: #6EE613;
 
 }
