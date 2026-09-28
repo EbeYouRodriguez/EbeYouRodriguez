@@ -88,3 +88,6 @@ footer {
   background: #6EE613;
   padding: 20px;
 }
+h1 ul {
+  background: transparent;
+}
