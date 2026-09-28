@@ -28,7 +28,7 @@ nav a {
   padding: 10px;
   list-style: none;
   text-decoration: none;
-  background-color: #94ffe8;
+  background-color: #00fcc5;
   justify-content: center;
   gap: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -38,7 +38,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #18d6f8;
+  background-color: #00fff2;
   margin: 10px;
   border-radius: 8px;
 } 
@@ -49,9 +49,9 @@ section h1 {
 }
 nav * {
     width: 100%;
-  background-color: #ceff74;
-  padding: 20px;
-  margin-top: 30px;
+  background-color: #a6ff00;
+  padding: 12px;
+  margin-top: 20px;
 }
 
 .uno-imagen {
