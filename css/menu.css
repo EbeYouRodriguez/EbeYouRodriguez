@@ -1,9 +1,9 @@
 
 body header {
-  display: flex;
+ display: flex;
   align-items: center;
   justify-content: center;
-  
+  gap: 30px;
 }
 nav ul {
   justify-content: center;
