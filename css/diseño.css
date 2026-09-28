@@ -48,3 +48,8 @@ nav a:hover {
   width: 300px;
   
 }
+.dos-imagen {
+  display: flex;
+  align-items: center;
+  gap: 30px
+}
