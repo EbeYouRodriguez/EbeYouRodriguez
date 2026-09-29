@@ -23,7 +23,7 @@ body {
     justify-content: space-between; 
     align-items: center;            
     padding: 10px 20px;               
-    background: linear-gradient(to right, white 50%, #f1c40f 50%);    
+   background: linear-gradient(to right, white 30%, #f1c40f 70%);    
 }
 .logo {
     height: 60px; 
