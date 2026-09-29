@@ -45,11 +45,12 @@ nav ul li a:hover {
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-left: 30;
+  text-align: left;
   background: url(https://mmmacademy.es/wp-content/uploads/2024/02/La-robotica-en-adolescentes-1.jpg);
   background-size: cover;
   background-position: center;
-
 }
 .fon {
   color:#F2CF1D;
