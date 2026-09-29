@@ -76,9 +76,12 @@ footer{
 footer h3 {
     margin-bottom: 20px;
 }
-footer a {
-    display: block;
-    margin-bottom: 21px;
+footer ul {
+    display: flex;
     align-items: center;
-  justify-content: center;
+    justify-content: center;
+    list-style: none;        
 }
+ footer a {
+    margin-right: 14px ;
+ }
