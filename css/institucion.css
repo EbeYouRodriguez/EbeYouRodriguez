@@ -79,4 +79,6 @@ footer h3 {
 footer a {
     display: block;
     margin-bottom: 21px;
+    align-items: center;
+  justify-content: center;
 }
