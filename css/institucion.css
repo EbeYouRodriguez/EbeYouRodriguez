@@ -32,3 +32,34 @@ nav ul li a {
 nav ul li a:hover {
     color: #f1c40f;                 /* Cambia a dorado al pasar el ratón */
 }
+nav {
+  background-color: #2C3E50;
+  width: 100%;
+  padding: 15px 0;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+nav a:hover {
+  background-color: #18d6f8;
+  color: white;
+  border-radius: 8px;
+}
+nav {
+  background-color: #2C3E50;
+  width: 100%;
+  padding: 15px 0;
+}
+.texfon{
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(https://mmmacademy.es/wp-content/uploads/2024/02/La-robotica-en-adolescentes-1.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
