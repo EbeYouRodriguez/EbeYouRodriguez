@@ -18,7 +18,7 @@ body {
     justify-content: space-between; 
     align-items: center;            
     padding: 10px 20px;             
-    background-color: #ffffff;      
+    background-color:#FFDC0F;      
 }
 .logo {
     height: 60px; 
@@ -54,4 +54,10 @@ nav ul li a:hover {
 }
 .fon {
   color:#F2CF1D;
+}
+.infromacion {
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 }
