@@ -9,7 +9,11 @@ body {
     padding: 0;
     overflow-x: hidden;
 }
+:root {
+  --background-color: linear-gradient(
 
+  )
+}
 .encabezado {
     display: flex;
     justify-content: space-between;
@@ -18,8 +22,8 @@ body {
     display: flex;
     justify-content: space-between; 
     align-items: center;            
-    padding: 10px 20px;             
-    background-color:#FFDC0F;      
+    padding: 10px 20px;               
+    background: linear-gradient(to right, white 50%, #f1c40f 50%);    
 }
 .logo {
     height: 60px; 
