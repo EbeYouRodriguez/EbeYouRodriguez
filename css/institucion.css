@@ -14,15 +14,13 @@ body {
 
   )
 }
-.encabezado {
-    display: flex;
-    justify-content: space-between;
- }
+
 .encabezado {
     position:fixed;
     display: flex;
     justify-content: space-between; 
-    align-items: center;            
+    align-items: center;
+    width: 100%;
     padding: 10px 20px;               
    background: linear-gradient(to right, white 30%, #f1c40f 70%);   
    box-shadow: 0 15px 20px #b18d00;
