@@ -47,8 +47,8 @@ nav ul li a:hover {
     color: #f1620f;               
 }
 .texfon{
-  width: 100%;
-  height: 100vh;
+  width: 50%;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: flex-start;
