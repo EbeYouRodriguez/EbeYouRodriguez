@@ -33,7 +33,7 @@ nav ul li a:hover {
     color: #f1c40f;                 /* Cambia a dorado al pasar el ratón */
 }
 .texfon{
-  width: 100vw;
+  width: 50vw;
   height: 50vh;
   display: flex;
   align-items: center;
