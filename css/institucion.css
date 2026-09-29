@@ -67,3 +67,8 @@ nav ul li a:hover {
   align-items: center;
   gap: 30px;
 }
+footer{
+     margin: 0;
+    padding: 0;
+    background: #b99400;
+}
