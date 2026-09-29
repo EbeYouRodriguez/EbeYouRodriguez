@@ -1,27 +1,27 @@
 .encabezado {
     display: flex;
-    justify-content: space-between; /* Distribuye el logo a la izquierda y la navegación a la derecha */
-    align-items: center;            /* Centra verticalmente ambos elementos */
-    padding: 10px 20px;             /* Espaciado interno */
-    background-color: #ffffff;      /* Color de fondo del encabezado */
+    justify-content: space-between; 
+    align-items: center;            
+    padding: 10px 20px;             
+    background-color: #ffffff;      
 }
 
-/* 2. Controla el tamaño del logo para que no ocupe demasiado espacio */
+
 .logo {
-    height: 60px; /* Ajusta la altura según prefieras */
+    height: 60px; 
     width: auto;
 }
 
-/* 3. Pone los ítems de la lista en fila horizontal */
+
 nav ul {
     display: flex;
-    list-style: none;               /* Quita los puntos de la lista */
+    list-style: none;              
     margin: 0;
     padding: 0;
-    gap: 20px;                      /* Espacio entre cada opción del menú */
+    gap: 20px;                    
 }
 
-/* 4. Estilos opcionales para los enlaces */
+
 nav ul li a {
     text-decoration: none;
     color: #333333;
@@ -30,10 +30,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #f1c40f;                 /* Cambia a dorado al pasar el ratón */
+    color: #f1c40f;               
 }
 .texfon{
-  width: 50vw;
+  width: 100vw;
   height: 50vh;
   display: flex;
   align-items: center;
