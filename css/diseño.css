@@ -82,7 +82,6 @@ nav * {
 
 .tres-imagen {
   display: flex;
-  align-items: center;
   justify-content: center;
   gap: 30px;
 }
@@ -106,3 +105,4 @@ footer {
   background-color: #6EE613;
 
 }
+
