@@ -106,14 +106,14 @@ footer {
   background-color: #6EE613;
 
 }
-aside {
-  grid-area: aside;
-
+main{
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 20px;
   padding: 20px;
-
+}
+aside {
+  padding: 20px;
   color: #ffffff;
-
   background-color: #80a8c8;
-
-  min-height: 100%;
 }
