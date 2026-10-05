@@ -21,9 +21,9 @@ body {
     align-items: center;
     width: 100%;
     padding: 10px 20px;               
-   background: linear-gradient(to right, white 30%, #f1c40f 70%);   
-   box-shadow: 0 15px 20px #b18d00;
-   border-radius: 0px 0px 0px 40px;
+    background: linear-gradient(to right, white 30%, #f1c40f 70%);     
+    box-shadow: 0 15px 20px #b18d00;
+    border-radius: 0px 0px 0px 40px;
 }
 .logo {
     height: 60px; 
