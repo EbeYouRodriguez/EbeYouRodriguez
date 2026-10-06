@@ -42,14 +42,14 @@ nav ul li a:hover {
     color: #f1620f;               
 }
 .texfon{
-  width: 50%;
-  height: 50vh;
+  width: 100%;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding-left: 30px;
   text-align: left;
-  background: url(https://mmmacademy.es/wp-content/uploads/2024/02/La-robotica-en-adolescentes-1.jpg);
+  background: url("../jpg/grok-image-eb5a8341-7aa2-4f09-92a3-9b7405d72585.jpg");
   background-size: cover;
   background-position: center;
   margin-bottom: 60px;
