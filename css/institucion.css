@@ -48,6 +48,7 @@ a {
     position: sticky;
     top: 0;
     z-index: 1000;
+    box-shadow: #d4a017;
 }
 
 .logo {
