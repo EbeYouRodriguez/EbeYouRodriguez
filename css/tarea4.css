@@ -16,9 +16,9 @@ nav ul {
     gap: 28px;
     align-items: center;
     background-color: #fd7272;
+    justify-content: center;
 }
 header {
     display: flex;
-    align-items: center;
-    background: #fd7272;
+     background: linear-gradient(to right, #ffffff 25%, red 100%);
 }
