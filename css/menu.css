@@ -35,9 +35,32 @@ nav a:hover {
   background-color: #18d6f8;
   margin: 11px;
   border-radius: 8px;
-} 
+}
 footer {
-   margin: 0;
-  padding: 0;
-  background-color: #9a9b9a;
+  background: #a1a1a1;
+  padding: 3rem 0;
+  
+}
+footer ul {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  gap: 20px;
+  list-style:none;
+  margin: 0%;
+  padding: 0%;
+  color: #222;
+   font-weight: 500;
+}
+footer a {
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.4s ease ;
+}
+
+footer a:hover {
+  color: #41E51D;
+  text-decoration: underline;
+  text-decoration: none;
 }
