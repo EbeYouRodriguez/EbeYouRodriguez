@@ -10,7 +10,8 @@ body {
 }
 
 body header {
-
+  text-align: center;
+  margin-top: 30px;
   display: flex;
   background: #a6f5d6;
   padding: 10px 20px;
