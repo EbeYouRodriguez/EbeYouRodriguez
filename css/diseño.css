@@ -102,7 +102,7 @@ nav * {
 
 footer {
   background: #a1a1a1;
-  padding: 1.5rem 0;
+  padding: 3rem 0;
   
 }
 footer ul {
@@ -126,4 +126,5 @@ footer a {
 footer a:hover {
   color: #41E51D;
   text-decoration: underline;
+  text-decoration: none;
 }
