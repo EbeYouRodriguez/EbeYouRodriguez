@@ -11,7 +11,6 @@
     <script src="js/matricula.js"></script>
 </head>
 <body>
-    <!-- Header -->
     <header class="encabezado">
         <a href="institucion.html" class="logo-link">
             <img src="video/Captura de pantalla 2026-09-28 174617.png" width="90" alt="Logo Tecnova" class="logo">
@@ -19,24 +18,21 @@
         <nav>
             <ul>
                 <li><a href="intitucion.html">INICIO</a></li>
-                <li><a href="matriculas.html" class="activo">MATRÍCULAS</a></li>
-                <li><a href="sedes.html">SEDES</a></li>
-                <li><a href="carreras.html">CARRERAS</a></li>
+                <li><a href="matriculas.html">MATRÍCULAS</a></li>
+                <li><a href="cedes.html">SEDES</a></li>
+                <li><a href="reconocimiento.html">CARRERAS</a></li>
                 <li><a href="contactos.html">CONTACTOS</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <!-- Hero Matrículas -->
         <section class="hero-matriculas">
             <div class="hero-contenido">
                 <h1>Matrículas 2026</h1>
                 <p>Da el primer paso hacia tu futuro tecnológico.<br>Inscríbete de forma rápida y sencilla.</p>
             </div>
         </section>
-
-        <!-- Información del proceso -->
         <section class="proceso-matricula">
             <div class="contenedor">
                 <h2 class="titulo-seccion">¿Cómo matricularte?</h2>
@@ -61,8 +57,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- Formulario de matrícula -->
         <section class="formulario-seccion">
             <div class="contenedor">
                 <div class="form-wrapper">
@@ -71,35 +65,30 @@
 
                     <form id="formMatricula" novalidate>
                         <div class="form-grid">
-                            <!-- Nombre -->
                             <div class="campo">
                                 <label for="nombre">Nombre completo *</label>
                                 <input type="text" id="nombre" name="nombre" placeholder="Ej: María López García" required>
                                 <span class="error-msg" id="error-nombre"></span>
                             </div>
-
-                            <!-- Documento -->
                             <div class="campo">
                                 <label for="documento">Número de documento *</label>
                                 <input type="text" id="documento" name="documento" placeholder="Ej: 1234567890" required>
                                 <span class="error-msg" id="error-documento"></span>
                             </div>
 
-                            <!-- Correo -->
                             <div class="campo">
                                 <label for="email">Correo electrónico *</label>
                                 <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
                                 <span class="error-msg" id="error-email"></span>
                             </div>
 
-                            <!-- Teléfono -->
                             <div class="campo">
                                 <label for="telefono">Teléfono / WhatsApp *</label>
                                 <input type="tel" id="telefono" name="telefono" placeholder="Ej: 3001234567" required>
                                 <span class="error-msg" id="error-telefono"></span>
                             </div>
 
-                            <!-- Carrera -->
+                            
                             <div class="campo campo-completo">
                                 <label for="carrera">Carrera de interés *</label>
                                 <select id="carrera" name="carrera" required>
@@ -114,7 +103,7 @@
                                 <span class="error-msg" id="error-carrera"></span>
                             </div>
 
-                            <!-- Modalidad -->
+                          
                             <div class="campo">
                                 <label for="modalidad">Modalidad preferida *</label>
                                 <select id="modalidad" name="modalidad" required>
@@ -126,7 +115,7 @@
                                 <span class="error-msg" id="error-modalidad"></span>
                             </div>
 
-                            <!-- Sede -->
+                           
                             <div class="campo">
                                 <label for="sede">Sede de preferencia</label>
                                 <select id="sede" name="sede">
@@ -138,14 +127,13 @@
                                 </select>
                             </div>
 
-                            <!-- Comentarios -->
                             <div class="campo campo-completo">
                                 <label for="comentarios">Comentarios o preguntas</label>
                                 <textarea id="comentarios" name="comentarios" rows="4" placeholder="Cuéntanos algo más si lo deseas..."></textarea>
                             </div>
                         </div>
 
-                        <!-- Checkbox términos -->
+                    
                         <div class="campo-check">
                             <input type="checkbox" id="terminos" name="terminos" required>
                             <label for="terminos">Acepto los términos y condiciones y la política de tratamiento de datos *</label>
@@ -155,7 +143,7 @@
                         <button type="submit" class="btn-enviar" id="btnEnviar">Enviar preinscripción</button>
                     </form>
 
-                    <!-- Mensaje de éxito (oculto por defecto) -->
+            
                     <div id="mensajeExito" class="mensaje-exito oculto">
                         <h3>¡Preinscripción enviada con éxito!</h3>
                         <p>Hemos recibido tus datos. Pronto un asesor de Instituto Tecnova se pondrá en contacto contigo.</p>
@@ -165,8 +153,6 @@
             </div>
         </section>
     </main>
-
-    <!-- Footer -->
     <footer>
         <div class="footer-contenido">
             <h3>Más información sobre nosotros</h3>
@@ -179,8 +165,6 @@
             <p class="copyright">© 2026 Instituto Tecnova. Todos los derechos reservados.</p>
         </div>
     </footer>
-
-    <!-- JavaScript -->
     <script src="js/matriculas.js"></script>
 </body>
 </html>
