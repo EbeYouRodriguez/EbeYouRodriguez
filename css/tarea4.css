@@ -14,4 +14,11 @@ nav ul {
     display: flex;
     list-style: none;
     gap: 28px;
+    align-items: center;
+    background-color: #fd7272;
+}
+header {
+    display: flex;
+    align-items: center;
+    background: #fd7272;
 }
