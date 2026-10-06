@@ -10,7 +10,7 @@ body {
 }
 
 body header {
-  justify-self: center;
+
   display: flex;
   background: #a6f5d6;
   padding: 10px 20px;
