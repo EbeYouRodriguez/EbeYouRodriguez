@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    color: var(--gris-oscuro);
+    background-color: #fafafa;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 28px;
+}
