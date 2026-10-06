@@ -15,8 +15,8 @@ nav ul {
     list-style: none;
     gap: 28px;
     align-items: center;
-    background-color: #fd7272;
     justify-content: center;
+     background: linear-gradient(to right, #ffffff 25%, red 100%);
 }
 header {
     display: flex;
