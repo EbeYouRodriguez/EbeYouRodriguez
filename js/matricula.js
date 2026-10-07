@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const mensajeExito = document.getElementById('mensajeExito');
     const btnNueva = document.getElementById('btnNueva');
 
-    // Función para mostrar error
     function mostrarError(idCampo, mensaje) {
         const errorSpan = document.getElementById('error-' + idCampo);
         const input = document.getElementById(idCampo);
@@ -18,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    // Función para limpiar error
+
     function limpiarError(idCampo) {
         const errorSpan = document.getElementById('error-' + idCampo);
         const input = document.getElementById(idCampo);
