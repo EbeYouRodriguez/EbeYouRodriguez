@@ -103,12 +103,45 @@ nav ul li a.activo::after {
     display: flex;
     align-items: center;
     padding-left: 60px;
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-                url("https://www.youtube.com/embed/rENNGAnzMBk?si=JUyTLC6HM0vHkC8-&autoplay=1&mute=1&loop=1&playlist=rENNGAnzMBk&controls=0");
-    background-size: cover;
-    background-position: center;
     margin-bottom: 80px;
     position: relative;
+    overflow: hidden;          /* recorta el video que sobra */
+}
+
+/* Contenedor del video */
+.hero-video {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;      /* el video no captura clics */
+}
+
+/* El iframe se agranda para cubrir todo el hero (efecto "cover") */
+.hero-video iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 56.25vw;           /* proporción 16:9 */
+    min-height: 100%;
+    min-width: 177.78vh;       /* 16:9 inverso */
+    transform: translate(-50%, -50%);
+    border: 0;
+}
+
+/* Capa oscura encima del video (tu degradado original) */
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45));
+    z-index: 1;
+}
+
+/* Tu texto y botón por encima de todo */
+.hero-content {
+    position: relative;
+    z-index: 2;
 }
 
 .hero-contenido {
