@@ -152,8 +152,8 @@ nav ul li a.activo::after {
 
 .btn{
     display: inline-block;
-    background: var(--amarillo);
-    color: var(--gris-oscuro);
+    background:#FFDE21 ;
+    color: #FFEE8C ;
     font-weight: 600;
     padding: 14px 32px;
     border-radius: 50px;
