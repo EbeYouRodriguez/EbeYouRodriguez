@@ -262,12 +262,12 @@ nav ul li a.activo::after {
     content: "▹";
     position: absolute;
     left: 0;
-    color: var(--naranja);
+    color: #f1620f;
     font-weight: bold;
 }
 
 .tarjeta-contenido strong {
-    color: var(--gris-oscuro);
+    color: #555;
 }
 
 .mision-vision {
@@ -294,16 +294,16 @@ nav ul li a.activo::after {
     border: 1px solid rgba(241, 196, 15, 0.25);
     border-radius: var(--radio);
     padding: 35px 30px;
-    transition: var(--transicion);
+    transition: all 0.3s ease;
 }
 .mv-card:hover {
     background: rgba(255, 255, 255, 0.1);
-    border-color: var(--amarillo);
+    border-color:#FFDE21;
     transform: translateY(-5px);
 }
 .mv-card h3 {
     font-size: 1.4rem;
-    color: var(--amarillo);
+    color: #FFDE21;
     margin-bottom: 16px;
 }
 .mv-card p {
@@ -313,7 +313,7 @@ nav ul li a.activo::after {
 }
 .reconocimiento {
     padding: 90px 0;
-    background: var(--blanco);
+    background: #ddd;
 }
 .reconocimiento-contenido {
     display: flex;
@@ -325,7 +325,7 @@ nav ul li a.activo::after {
     width: 380px;
     max-width: 100%;
     border-radius: var(--radio);
-    box-shadow: var(--sombra);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12) ;
     object-fit: cover;
 }
 .reconocimiento .texto {
@@ -335,11 +335,11 @@ nav ul li a.activo::after {
 .reconocimiento h2 {
     font-size: 2rem;
     margin-bottom: 18px;
-    color: var(--gris-oscuro);
+    color: #3a3a38;
 }
 .reconocimiento p {
     margin-bottom: 22px;
-    color: var(--gris-medio);
+    color: #3a3a38 ;
     font-size: 1.05rem;
 }
 .reconocimiento ul {
@@ -349,20 +349,20 @@ nav ul li a.activo::after {
     margin-bottom: 14px;
     padding-left: 22px;
     position: relative;
-    color: var(--gris-medio);
+    color: #3a3a38;
     font-size: 0.98rem;
 }
 .reconocimiento li::before {
     content: "★";
     position: absolute;
     left: 0;
-    color: var(--amarillo);
+    color: #FFDE21;
 }
 .reconocimiento strong {
-    color: var(--gris-oscuro);
+    color: #555;
 }
 
-/* ===== Footer ===== */
+
 footer {
     background: #3a3a38;
     color: #ddd;
@@ -373,7 +373,7 @@ footer {
 .footer-contenido h3 {
     font-size: 1.3rem;
     margin-bottom: 22px;
-    color: var(--amarillo);
+    color: #f1c40f ;
 }
 .redes {
     display: flex;
@@ -386,13 +386,13 @@ footer {
 
 .redes a {
     font-weight: 500;
-    transition: var(--transicion);
+    transition:all 0.3s ease;
     padding: 6px 12px;
     border-radius: 6px;
 }
 
 .redes a:hover {
-    color: var(--amarillo);
+    color: #FFDE21;
     background: rgba(241, 196, 15, 0.1);
 }
 
