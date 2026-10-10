@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Poppins', Arial, sans-serif;
-    color:#999;
+    color:#1a1a1a ;
     background-color: #fafafa;
     line-height: 1.6;
     overflow-x: hidden;
@@ -174,13 +174,13 @@ nav ul li a.activo::after {
     text-align: center;
     font-size: 2.2rem;
     font-weight: 700;
-    color: var(--gris-oscuro);
+    color:#FFDE21;
     margin-bottom: 10px;
 }
 
 .subtitulo-seccion {
     text-align: center;
-    color: var(--gris-medio);
+    color: #d4a017;
     margin-bottom: 50px;
     font-size: 1.1rem;
 }
@@ -203,17 +203,17 @@ nav ul li a.activo::after {
     margin: 0 auto;
 }
 .tarjeta {
-    background: var(--blanco);
-    border-radius: var(--radio);
+    background: #ddd ;
+    border-radius: 10px ;
     overflow: hidden;
-    box-shadow: var(--sombra);
-    transition: var(--transicion);
+    box-shadow: 0 4px 6px rgba(99, 98, 98, 0.1) ;
+    transition: background 0.3s ease, transform 0.2s ease-in-out;
     display: flex;
     flex-direction: column;
 }
 .tarjeta:hover {
     transform: translateY(-10px);
-    box-shadow: var(--sombra-hover);
+    box-shadow: 0 4px 6px rgba(99, 98, 98, 0.1);
 }
 
 .tarjeta-img {
