@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   
     form.addEventListener('submit', function (e) {
-        e.preventDefault(); // Evita el envío real
+        e.preventDefault();
 
 
         const campos = ['nombre', 'documento', 'email', 'telefono', 'carrera', 'modalidad', 'terminos'];
