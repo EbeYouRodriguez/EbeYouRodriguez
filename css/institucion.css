@@ -203,17 +203,17 @@ nav ul li a.activo::after {
     margin: 0 auto;
 }
 .tarjeta {
-    background: #ddd ;
+    background: #cac9c9 ;
     border-radius: 10px ;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(99, 98, 98, 0.1) ;
+    box-shadow: 0 4px 6px rgba(3, 3, 3, 0.1) ;
     transition: background 0.3s ease, transform 0.2s ease-in-out;
     display: flex;
     flex-direction: column;
 }
 .tarjeta:hover {
     transform: translateY(-10px);
-    box-shadow: 0 4px 6px rgba(99, 98, 98, 0.1);
+    box-shadow: 0 4px 6px rgba(29, 29, 29, 0.1);
 }
 
 .tarjeta-img {
