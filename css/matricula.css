@@ -1,9 +1,4 @@
-/* =========================================
-   CSS ESPECÍFICO PARA MATRÍCULAS
-   Instituto Tecnova
-   ========================================= */
 
-/* ===== Reset y Variables ===== */
 * {
     margin: 0;
     padding: 0;
@@ -49,7 +44,6 @@ a {
     padding: 0 30px;
 }
 
-/* ===== HEADER ===== */
 .encabezado {
     display: flex;
     justify-content: space-between;
@@ -118,7 +112,7 @@ nav ul li a.activo::after {
     width: 100%;
 }
 
-/* ===== HERO MATRÍCULAS ===== */
+
 .hero-matriculas {
     width: 100%;
     height: 42vh;
@@ -152,7 +146,7 @@ nav ul li a.activo::after {
     line-height: 1.5;
 }
 
-/* ===== TÍTULOS DE SECCIÓN ===== */
+
 .titulo-seccion {
     text-align: center;
     font-size: 2.1rem;
@@ -168,8 +162,8 @@ nav ul li a.activo::after {
     font-size: 1.05rem;
 }
 
-/* ===== PASOS DEL PROCESO ===== */
-.proceso-matricula {
+
+.proceso-matrcula {
     padding: 10px 0 70px;
 }
 
@@ -222,7 +216,7 @@ nav ul li a.activo::after {
     line-height: 1.5;
 }
 
-/* ===== FORMULARIO ===== */
+
 .formulario-seccion {
     background: #f0f0f0;
     padding: 70px 0 90px;
@@ -309,7 +303,7 @@ nav ul li a.activo::after {
     display: none;
 }
 
-/* Checkbox términos */
+
 .campo-check {
     margin: 25px 0 30px;
     display: flex;
@@ -333,7 +327,7 @@ nav ul li a.activo::after {
     line-height: 1.4;
 }
 
-/* Botón enviar */
+
 .btn-enviar {
     width: 100%;
     padding: 15px;
@@ -356,7 +350,6 @@ nav ul li a.activo::after {
     box-shadow: 0 8px 25px rgba(241, 98, 15, 0.4);
 }
 
-/* Mensaje de éxito */
 .mensaje-exito {
     text-align: center;
     padding: 40px 20px;
@@ -395,7 +388,7 @@ nav ul li a.activo::after {
     display: none !important;
 }
 
-/* ===== FOOTER ===== */
+
 footer {
     background: #3a3a38;
     color: #ddd;
@@ -441,7 +434,7 @@ footer {
     margin-top: 10px;
 }
 
-/* ===== RESPONSIVE ===== */
+
 @media (max-width: 900px) {
     .encabezado {
         flex-direction: column;
