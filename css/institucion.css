@@ -55,7 +55,7 @@ nav ul {
 nav ul li a {
     font-weight: 600;
     font-size: 0.95rem;
-    color: #333;
+    color: #333333;
     padding: 8px 4px;
     position: relative;
     transition: var(--transicion);
@@ -131,7 +131,7 @@ nav ul li a.activo::after {
 
 .hero-contenido {
     max-width: 650px;
-    color: var(--blanco);
+    color:#FFDE21 ;
 }
 
 .hero h1 {
