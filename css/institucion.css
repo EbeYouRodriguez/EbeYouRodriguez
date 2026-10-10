@@ -137,8 +137,8 @@ nav ul li a.activo::after {
 .hero h1 {
     font-size: 3.2rem;
     font-weight: 700;
-    color: var(--amarillo);
-    text-shadow: 2px 3px 6px rgba(255, 248, 248, 0.6);
+    color: #FFDE21;
+    text-shadow: 2px 3px 6px #999;
     margin-bottom: 16px;
     letter-spacing: 1px;
 }
@@ -146,14 +146,15 @@ nav ul li a.activo::after {
 .hero p {
     font-size: 1.35rem;
     margin-bottom: 28px;
-    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 2px 4px #1a1a1a;
     line-height: 1.5;
+    color: #1a1a1a;
 }
 
 .btn{
     display: inline-block;
     background:#FFDE21 ;
-    color: #333333 ;
+    color: #1a1a1a ;
     font-weight: 600;
     padding: 14px 32px;
     border-radius: 50px;
