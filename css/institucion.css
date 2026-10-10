@@ -75,7 +75,7 @@ nav ul li a::after {
 
 nav ul li a:hover,
 nav ul li a.activo {
-    color: var(--naranja);
+    color: #E0115F;
 }
 
 nav ul li a:hover::after,
