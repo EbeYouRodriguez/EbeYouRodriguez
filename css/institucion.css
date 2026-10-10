@@ -120,7 +120,6 @@ nav ul li a.activo::after {
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient( #ffffff , #ffffff );
     z-index: 1;
 }
 
