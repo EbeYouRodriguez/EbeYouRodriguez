@@ -4,20 +4,6 @@
     box-sizing: border-box;
 }
 
-:root {
-    --amarillo: #f1c40f;
-    --amarillo-oscuro: #d4a017;
-    --naranja: #f1620f;
-    --gris-oscuro: #2c2c2c;
-    --gris-medio: #555;
-    --gris-claro: #f5f5f5;
-    --blanco: #ffffff;
-    --sombra: 0 10px 30px rgba(0, 0, 0, 0.12);
-    --sombra-hover: 0 15px 40px rgba(0, 0, 0, 0.18);
-    --radio: 16px;
-    --transicion: all 0.3s ease;
-}
-
 body {
     font-family: 'Poppins', Arial, sans-serif;
     color: var(--gris-oscuro);
@@ -105,40 +91,40 @@ nav ul li a.activo::after {
     padding-left: 60px;
     margin-bottom: 80px;
     position: relative;
-    overflow: hidden;          /* recorta el video que sobra */
+    overflow: hidden;         
 }
 
-/* Contenedor del video */
+
 .hero-video {
     position: absolute;
     inset: 0;
     z-index: 0;
-    pointer-events: none;      /* el video no captura clics */
+    pointer-events: none;      
 }
 
-/* El iframe se agranda para cubrir todo el hero (efecto "cover") */
+
 .hero-video iframe {
     position: absolute;
     top: 50%;
     left: 50%;
     width: 100vw;
-    height: 56.25vw;           /* proporción 16:9 */
+    height: 56.25vw;         
     min-height: 100%;
-    min-width: 177.78vh;       /* 16:9 inverso */
+    min-width: 177.78vh;     
     transform: translate(-50%, -50%);
     border: 0;
 }
 
-/* Capa oscura encima del video (tu degradado original) */
+
 .hero::after {
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45));
+    background: linear-gradient( #ffffff , #ffffff );
     z-index: 1;
 }
 
-/* Tu texto y botón por encima de todo */
+
 .hero-content {
     position: relative;
     z-index: 2;
@@ -153,7 +139,7 @@ nav ul li a.activo::after {
     font-size: 3.2rem;
     font-weight: 700;
     color: var(--amarillo);
-    text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 3px 6px rgba(255, 248, 248, 0.6);
     margin-bottom: 16px;
     letter-spacing: 1px;
 }
@@ -184,7 +170,6 @@ nav ul li a.activo::after {
     box-shadow: 0 10px 25px rgba(241, 98, 15, 0.4);
 }
 
-/* ===== Secciones generales ===== */
 .titulo-seccion {
     text-align: center;
     font-size: 2.2rem;
@@ -206,7 +191,6 @@ nav ul li a.activo::after {
     padding: 0 30px;
 }
 
-/* ===== Grid de tarjetas de tecnología ===== */
 .seccion-tecnologia {
     padding: 0 40px 80px;
 }
@@ -218,7 +202,6 @@ nav ul li a.activo::after {
     max-width: 1300px;
     margin: 0 auto;
 }
-
 .tarjeta {
     background: var(--blanco);
     border-radius: var(--radio);
@@ -228,7 +211,6 @@ nav ul li a.activo::after {
     display: flex;
     flex-direction: column;
 }
-
 .tarjeta:hover {
     transform: translateY(-10px);
     box-shadow: var(--sombra-hover);
@@ -288,7 +270,6 @@ nav ul li a.activo::after {
     color: var(--gris-oscuro);
 }
 
-/* ===== Misión y Visión ===== */
 .mision-vision {
     background: linear-gradient(135deg, #2c2c2c 0%, #1a1a1a 100%);
     color: var(--blanco);
@@ -315,38 +296,31 @@ nav ul li a.activo::after {
     padding: 35px 30px;
     transition: var(--transicion);
 }
-
 .mv-card:hover {
     background: rgba(255, 255, 255, 0.1);
     border-color: var(--amarillo);
     transform: translateY(-5px);
 }
-
 .mv-card h3 {
     font-size: 1.4rem;
     color: var(--amarillo);
     margin-bottom: 16px;
 }
-
 .mv-card p {
     font-size: 1rem;
     line-height: 1.7;
     color: #e0e0e0;
 }
-
-/* ===== Reconocimiento ===== */
 .reconocimiento {
     padding: 90px 0;
     background: var(--blanco);
 }
-
 .reconocimiento-contenido {
     display: flex;
     gap: 50px;
     align-items: center;
     flex-wrap: wrap;
 }
-
 .reconocimiento-contenido img {
     width: 380px;
     max-width: 100%;
@@ -354,28 +328,23 @@ nav ul li a.activo::after {
     box-shadow: var(--sombra);
     object-fit: cover;
 }
-
 .reconocimiento .texto {
     flex: 1;
     min-width: 300px;
 }
-
 .reconocimiento h2 {
     font-size: 2rem;
     margin-bottom: 18px;
     color: var(--gris-oscuro);
 }
-
 .reconocimiento p {
     margin-bottom: 22px;
     color: var(--gris-medio);
     font-size: 1.05rem;
 }
-
 .reconocimiento ul {
     list-style: none;
 }
-
 .reconocimiento li {
     margin-bottom: 14px;
     padding-left: 22px;
@@ -383,14 +352,12 @@ nav ul li a.activo::after {
     color: var(--gris-medio);
     font-size: 0.98rem;
 }
-
 .reconocimiento li::before {
     content: "★";
     position: absolute;
     left: 0;
     color: var(--amarillo);
 }
-
 .reconocimiento strong {
     color: var(--gris-oscuro);
 }
@@ -408,7 +375,6 @@ footer {
     margin-bottom: 22px;
     color: var(--amarillo);
 }
-
 .redes {
     display: flex;
     justify-content: center;
@@ -436,7 +402,6 @@ footer {
     margin-top: 10px;
 }
 
-/* ===== Responsive ===== */
 @media (max-width: 900px) {
     .encabezado {
         flex-direction: column;
